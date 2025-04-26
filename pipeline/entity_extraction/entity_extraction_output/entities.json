@@ -1,0 +1,11 @@
+{
+    "departure_date": "2025-09-08",
+    "return_date": "2025-09-08",
+    "budget": "1000 euros",
+    "n_travellers": 1,
+    "n_adults": 1,
+    "n_children": 0,
+    "interests": "art, culture, history, nightlife, clubs, music (pop)",
+    "destination": "Barcelona",
+    "departure": "Amsterdam"
+}
