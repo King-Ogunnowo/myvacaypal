@@ -1,33 +1,19 @@
-from dotenv import load_dotenv
+from dotenv import load_dotenv, dotenv_values
 
 import subprocess
 import requests
 import os
 
 
+credentials = dict(dotenv_values(".env"))
 load_dotenv()
 
-def update_env_var(key, value, env_file=".env"):
-    try:
-        with open(env_file, "r") as f:
-            lines = f.readlines()
-    except FileNotFoundError:
-        lines = []
 
-    key_found = False
-    new_lines = []
-    for line in lines:
-        if line.startswith(f"{key} = "):
-            new_lines.append(f"{key} = {value}\n")
-            key_found = True
-        else:
-            new_lines.append(line)
-
-    if not key_found:
-        new_lines.append(f"\n{key}={value}\n")
-
+def update_access_key(credentials, new_access_key, env_file):
+    credentials['ACCESS_TOKEN'] = new_access_key
     with open(env_file, "w") as f:
-        f.writelines(new_lines)
+        for key, value in credentials.items():
+            f.write(f'{key}="{value}"\n')
 
 def get_access_token():
     payload = {
@@ -47,11 +33,13 @@ def get_access_token():
 
     return response_data["access_token"], response_data["expires_in"]
 
+
 if __name__ == "__main__":
     access_token, expires_in = get_access_token()
-    update_env_var(
-        key = "ACCESS_TOKEN",
-        value = access_token
+    update_access_key(
+        credentials = credentials,
+        new_access_key = get_access_token()[0],
+        env_file = ".env"
     )
     subprocess.run(["python", "flight_search.py"])
     subprocess.run(["python", "flight_price_confirmation.py"])
