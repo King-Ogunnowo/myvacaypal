@@ -142,7 +142,7 @@ if prompt := st.chat_input("Hey! How can I help?"):
 
             st.markdown("Querying trip vendors")
 
-            
+            #
             render_flight_thumbnails()
 
 
