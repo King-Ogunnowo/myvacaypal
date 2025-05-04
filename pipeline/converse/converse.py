@@ -7,7 +7,7 @@ def create_conversation_id():
     return uuid.uuid4().hex
 
 conversation_id = create_conversation_id()
-converse_output_path = "converse_output/chat_history.json"
+converse_output_path = "/Users/oluwaseyi/Documents/repositories/myvacaypal/pipeline/converse/converse_output/chat_history.json"
 
 def preserve_chat_history(messages):
     json_data = json.dumps(messages, indent=4)
@@ -19,6 +19,7 @@ def recall_chat_history():
         with open(converse_output_path, "r") as file:
             messages = json.load(file)
             return messages
+        
     except FileNotFoundError:
         return []
     except json.JSONDecodeError:
@@ -62,6 +63,8 @@ def process_user_response(user_input):
                     "Avoid drill downs and deep dives, ask very important questions"
                     "Do not ask more than 5 questions in all"
                     "when you have all the questions you need, say this: 'Thank you for answering my questions, I will now compile your trip itenary, a minute please...'"
+                    "Most importantly, ensure you get details on departure, arrival, accomodation, number of passengers, budget, activities, etc"
+                    "Before you conclude the conversation, reiterate ALL the user's preference as a way of confirming the user's intent"
 
                 ),
                 "timestamp":str(datetime.datetime.now()),
@@ -76,12 +79,8 @@ def process_user_response(user_input):
         }
     )
     preserve_chat_history(messages)
-    print(ai_respond())
     return ai_respond()
-
-
-if __name__ == "__main__":
-    process_user_response("Clubs and music, preferably pop")
+    
 
 
 

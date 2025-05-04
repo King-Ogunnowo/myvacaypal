@@ -2,7 +2,7 @@ import ollama
 import json
 import ast
 
-conversation_history_path = "../converse/converse_output/chat_history.json"
+conversation_history_path = "/Users/oluwaseyi/Documents/repositories/myvacaypal/pipeline/converse/converse_output/chat_history.json"
 
 def load_chat_history(conversation_history_path):
     with open(conversation_history_path, 'r') as file:
@@ -35,7 +35,9 @@ def process_chat_history(conversation_history_path):
                 n_children:"number of children",
                 "interests":"interests of the user",
                 destination: "destination of the user",
-                departure: "city of departure of the user"
+                departure: "city of departure of the user",
+                prefered_accomodation_location: "a landmark of point where the user would love to stay around"
+
                 
                 here is the chat: {chat_history}
 
@@ -70,7 +72,7 @@ def process_output(entities):
 def save_entities():
     entities = process_chat_history(conversation_history_path)
     entities = process_output(entities)
-    with open("entity_extraction_output/entities.json", "w") as f:
+    with open("/Users/oluwaseyi/Documents/repositories/myvacaypal/pipeline/entity_extraction/entity_extraction_output/entities.json", "w") as f:
         json.dump(entities, f, indent=4)
 
 if __name__ == "__main__":

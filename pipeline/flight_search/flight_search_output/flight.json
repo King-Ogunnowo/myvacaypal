@@ -1,0 +1,813 @@
+{
+    "type": "flight-offers-pricing",
+    "flightOffers": [
+        {
+            "type": "flight-offer",
+            "id": "2",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "paymentCardRequired": false,
+            "lastTicketingDate": "2025-06-16",
+            "itineraries": [
+                {
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "AMS",
+                                "at": "2025-06-23T17:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "FCO",
+                                "terminal": "1",
+                                "at": "2025-06-23T20:10:00"
+                            },
+                            "carrierCode": "AZ",
+                            "number": "109",
+                            "aircraft": {
+                                "code": "32N"
+                            },
+                            "operating": {
+                                "carrierCode": "AZ"
+                            },
+                            "duration": "PT2H15M",
+                            "id": "44",
+                            "numberOfStops": 0,
+                            "co2Emissions": [
+                                {
+                                    "weight": 102,
+                                    "weightUnit": "KG",
+                                    "cabin": "ECONOMY"
+                                }
+                            ]
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "FCO",
+                                "terminal": "1",
+                                "at": "2025-06-23T21:25:00"
+                            },
+                            "arrival": {
+                                "iataCode": "BCN",
+                                "terminal": "1",
+                                "at": "2025-06-23T23:15:00"
+                            },
+                            "carrierCode": "AZ",
+                            "number": "78",
+                            "aircraft": {
+                                "code": "32S"
+                            },
+                            "operating": {
+                                "carrierCode": "AZ"
+                            },
+                            "duration": "PT1H50M",
+                            "id": "45",
+                            "numberOfStops": 0,
+                            "co2Emissions": [
+                                {
+                                    "weight": 83,
+                                    "weightUnit": "KG",
+                                    "cabin": "ECONOMY"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "BCN",
+                                "terminal": "1",
+                                "at": "2025-06-29T06:20:00"
+                            },
+                            "arrival": {
+                                "iataCode": "FCO",
+                                "terminal": "1",
+                                "at": "2025-06-29T08:05:00"
+                            },
+                            "carrierCode": "AZ",
+                            "number": "75",
+                            "aircraft": {
+                                "code": "32S"
+                            },
+                            "operating": {
+                                "carrierCode": "AZ"
+                            },
+                            "duration": "PT1H45M",
+                            "id": "128",
+                            "numberOfStops": 0,
+                            "co2Emissions": [
+                                {
+                                    "weight": 83,
+                                    "weightUnit": "KG",
+                                    "cabin": "ECONOMY"
+                                }
+                            ]
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "FCO",
+                                "terminal": "1",
+                                "at": "2025-06-29T14:35:00"
+                            },
+                            "arrival": {
+                                "iataCode": "AMS",
+                                "at": "2025-06-29T17:05:00"
+                            },
+                            "carrierCode": "AZ",
+                            "number": "110",
+                            "aircraft": {
+                                "code": "32N"
+                            },
+                            "operating": {
+                                "carrierCode": "AZ"
+                            },
+                            "duration": "PT2H30M",
+                            "id": "129",
+                            "numberOfStops": 0,
+                            "co2Emissions": [
+                                {
+                                    "weight": 102,
+                                    "weightUnit": "KG",
+                                    "cabin": "ECONOMY"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "237.61",
+                "base": "39.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "FORM_OF_PAYMENT"
+                    }
+                ],
+                "grandTotal": "237.61",
+                "billingCurrency": "EUR"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": false
+            },
+            "validatingAirlineCodes": [
+                "AZ"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "237.61",
+                        "base": "39.00",
+                        "taxes": [
+                            {
+                                "amount": "29.40",
+                                "code": "VV"
+                            },
+                            {
+                                "amount": "3.72",
+                                "code": "QV"
+                            },
+                            {
+                                "amount": "22.28",
+                                "code": "CJ"
+                            },
+                            {
+                                "amount": "42.00",
+                                "code": "YQ"
+                            },
+                            {
+                                "amount": "0.63",
+                                "code": "OG"
+                            },
+                            {
+                                "amount": "26.00",
+                                "code": "YR"
+                            },
+                            {
+                                "amount": "15.00",
+                                "code": "HB"
+                            },
+                            {
+                                "amount": "13.25",
+                                "code": "JD"
+                            },
+                            {
+                                "amount": "12.26",
+                                "code": "IT"
+                            },
+                            {
+                                "amount": "31.65",
+                                "code": "RN"
+                            },
+                            {
+                                "amount": "2.42",
+                                "code": "MJ"
+                            }
+                        ],
+                        "refundableTaxes": "130.61"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "44",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORLGEU1",
+                            "brandedFare": "ECOLIGHT",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            }
+                        },
+                        {
+                            "segmentId": "45",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORLGEU1",
+                            "brandedFare": "ECOLIGHT",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            }
+                        },
+                        {
+                            "segmentId": "128",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORLGEU1",
+                            "brandedFare": "ECOLIGHT",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            }
+                        },
+                        {
+                            "segmentId": "129",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORLGEU1",
+                            "brandedFare": "ECOLIGHT",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "1",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "paymentCardRequired": false,
+            "lastTicketingDate": "2025-06-16",
+            "itineraries": [
+                {
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "AMS",
+                                "at": "2025-06-23T17:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "FCO",
+                                "terminal": "1",
+                                "at": "2025-06-23T20:10:00"
+                            },
+                            "carrierCode": "AZ",
+                            "number": "109",
+                            "aircraft": {
+                                "code": "32N"
+                            },
+                            "operating": {
+                                "carrierCode": "AZ"
+                            },
+                            "duration": "PT2H15M",
+                            "id": "44",
+                            "numberOfStops": 0,
+                            "co2Emissions": [
+                                {
+                                    "weight": 102,
+                                    "weightUnit": "KG",
+                                    "cabin": "ECONOMY"
+                                }
+                            ]
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "FCO",
+                                "terminal": "1",
+                                "at": "2025-06-23T21:25:00"
+                            },
+                            "arrival": {
+                                "iataCode": "BCN",
+                                "terminal": "1",
+                                "at": "2025-06-23T23:15:00"
+                            },
+                            "carrierCode": "AZ",
+                            "number": "78",
+                            "aircraft": {
+                                "code": "32S"
+                            },
+                            "operating": {
+                                "carrierCode": "AZ"
+                            },
+                            "duration": "PT1H50M",
+                            "id": "45",
+                            "numberOfStops": 0,
+                            "co2Emissions": [
+                                {
+                                    "weight": 83,
+                                    "weightUnit": "KG",
+                                    "cabin": "ECONOMY"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "BCN",
+                                "terminal": "1",
+                                "at": "2025-06-29T11:40:00"
+                            },
+                            "arrival": {
+                                "iataCode": "FCO",
+                                "terminal": "1",
+                                "at": "2025-06-29T13:25:00"
+                            },
+                            "carrierCode": "AZ",
+                            "number": "77",
+                            "aircraft": {
+                                "code": "32N"
+                            },
+                            "operating": {
+                                "carrierCode": "AZ"
+                            },
+                            "duration": "PT1H45M",
+                            "id": "100",
+                            "numberOfStops": 0,
+                            "co2Emissions": [
+                                {
+                                    "weight": 83,
+                                    "weightUnit": "KG",
+                                    "cabin": "ECONOMY"
+                                }
+                            ]
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "FCO",
+                                "terminal": "1",
+                                "at": "2025-06-29T14:35:00"
+                            },
+                            "arrival": {
+                                "iataCode": "AMS",
+                                "at": "2025-06-29T17:05:00"
+                            },
+                            "carrierCode": "AZ",
+                            "number": "110",
+                            "aircraft": {
+                                "code": "32N"
+                            },
+                            "operating": {
+                                "carrierCode": "AZ"
+                            },
+                            "duration": "PT2H30M",
+                            "id": "101",
+                            "numberOfStops": 0,
+                            "co2Emissions": [
+                                {
+                                    "weight": 102,
+                                    "weightUnit": "KG",
+                                    "cabin": "ECONOMY"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "237.61",
+                "base": "39.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "FORM_OF_PAYMENT"
+                    }
+                ],
+                "grandTotal": "237.61",
+                "billingCurrency": "EUR"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": false
+            },
+            "validatingAirlineCodes": [
+                "AZ"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "237.61",
+                        "base": "39.00",
+                        "taxes": [
+                            {
+                                "amount": "29.40",
+                                "code": "VV"
+                            },
+                            {
+                                "amount": "3.72",
+                                "code": "QV"
+                            },
+                            {
+                                "amount": "22.28",
+                                "code": "CJ"
+                            },
+                            {
+                                "amount": "42.00",
+                                "code": "YQ"
+                            },
+                            {
+                                "amount": "0.63",
+                                "code": "OG"
+                            },
+                            {
+                                "amount": "26.00",
+                                "code": "YR"
+                            },
+                            {
+                                "amount": "15.00",
+                                "code": "HB"
+                            },
+                            {
+                                "amount": "13.25",
+                                "code": "JD"
+                            },
+                            {
+                                "amount": "12.26",
+                                "code": "IT"
+                            },
+                            {
+                                "amount": "31.65",
+                                "code": "RN"
+                            },
+                            {
+                                "amount": "2.42",
+                                "code": "MJ"
+                            }
+                        ],
+                        "refundableTaxes": "130.61"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "44",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORLGEU1",
+                            "brandedFare": "ECOLIGHT",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            }
+                        },
+                        {
+                            "segmentId": "45",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORLGEU1",
+                            "brandedFare": "ECOLIGHT",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            }
+                        },
+                        {
+                            "segmentId": "100",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORLGEU1",
+                            "brandedFare": "ECOLIGHT",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            }
+                        },
+                        {
+                            "segmentId": "101",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORLGEU1",
+                            "brandedFare": "ECOLIGHT",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "flight-offer",
+            "id": "3",
+            "source": "GDS",
+            "instantTicketingRequired": false,
+            "nonHomogeneous": false,
+            "paymentCardRequired": false,
+            "lastTicketingDate": "2025-06-16",
+            "itineraries": [
+                {
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "AMS",
+                                "at": "2025-06-23T11:55:00"
+                            },
+                            "arrival": {
+                                "iataCode": "FCO",
+                                "terminal": "1",
+                                "at": "2025-06-23T14:10:00"
+                            },
+                            "carrierCode": "AZ",
+                            "number": "107",
+                            "aircraft": {
+                                "code": "32Q"
+                            },
+                            "operating": {
+                                "carrierCode": "AZ"
+                            },
+                            "duration": "PT2H15M",
+                            "id": "46",
+                            "numberOfStops": 0,
+                            "co2Emissions": [
+                                {
+                                    "weight": 102,
+                                    "weightUnit": "KG",
+                                    "cabin": "ECONOMY"
+                                }
+                            ]
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "FCO",
+                                "terminal": "1",
+                                "at": "2025-06-23T21:25:00"
+                            },
+                            "arrival": {
+                                "iataCode": "BCN",
+                                "terminal": "1",
+                                "at": "2025-06-23T23:15:00"
+                            },
+                            "carrierCode": "AZ",
+                            "number": "78",
+                            "aircraft": {
+                                "code": "32S"
+                            },
+                            "operating": {
+                                "carrierCode": "AZ"
+                            },
+                            "duration": "PT1H50M",
+                            "id": "47",
+                            "numberOfStops": 0,
+                            "co2Emissions": [
+                                {
+                                    "weight": 83,
+                                    "weightUnit": "KG",
+                                    "cabin": "ECONOMY"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "segments": [
+                        {
+                            "departure": {
+                                "iataCode": "BCN",
+                                "terminal": "1",
+                                "at": "2025-06-29T11:40:00"
+                            },
+                            "arrival": {
+                                "iataCode": "FCO",
+                                "terminal": "1",
+                                "at": "2025-06-29T13:25:00"
+                            },
+                            "carrierCode": "AZ",
+                            "number": "77",
+                            "aircraft": {
+                                "code": "32N"
+                            },
+                            "operating": {
+                                "carrierCode": "AZ"
+                            },
+                            "duration": "PT1H45M",
+                            "id": "100",
+                            "numberOfStops": 0,
+                            "co2Emissions": [
+                                {
+                                    "weight": 83,
+                                    "weightUnit": "KG",
+                                    "cabin": "ECONOMY"
+                                }
+                            ]
+                        },
+                        {
+                            "departure": {
+                                "iataCode": "FCO",
+                                "terminal": "1",
+                                "at": "2025-06-29T14:35:00"
+                            },
+                            "arrival": {
+                                "iataCode": "AMS",
+                                "at": "2025-06-29T17:05:00"
+                            },
+                            "carrierCode": "AZ",
+                            "number": "110",
+                            "aircraft": {
+                                "code": "32N"
+                            },
+                            "operating": {
+                                "carrierCode": "AZ"
+                            },
+                            "duration": "PT2H30M",
+                            "id": "101",
+                            "numberOfStops": 0,
+                            "co2Emissions": [
+                                {
+                                    "weight": 102,
+                                    "weightUnit": "KG",
+                                    "cabin": "ECONOMY"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "price": {
+                "currency": "EUR",
+                "total": "237.61",
+                "base": "39.00",
+                "fees": [
+                    {
+                        "amount": "0.00",
+                        "type": "SUPPLIER"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "TICKETING"
+                    },
+                    {
+                        "amount": "0.00",
+                        "type": "FORM_OF_PAYMENT"
+                    }
+                ],
+                "grandTotal": "237.61",
+                "billingCurrency": "EUR"
+            },
+            "pricingOptions": {
+                "fareType": [
+                    "PUBLISHED"
+                ],
+                "includedCheckedBagsOnly": false
+            },
+            "validatingAirlineCodes": [
+                "AZ"
+            ],
+            "travelerPricings": [
+                {
+                    "travelerId": "1",
+                    "fareOption": "STANDARD",
+                    "travelerType": "ADULT",
+                    "price": {
+                        "currency": "EUR",
+                        "total": "237.61",
+                        "base": "39.00",
+                        "taxes": [
+                            {
+                                "amount": "29.40",
+                                "code": "VV"
+                            },
+                            {
+                                "amount": "3.72",
+                                "code": "QV"
+                            },
+                            {
+                                "amount": "22.28",
+                                "code": "CJ"
+                            },
+                            {
+                                "amount": "42.00",
+                                "code": "YQ"
+                            },
+                            {
+                                "amount": "0.63",
+                                "code": "OG"
+                            },
+                            {
+                                "amount": "26.00",
+                                "code": "YR"
+                            },
+                            {
+                                "amount": "15.00",
+                                "code": "HB"
+                            },
+                            {
+                                "amount": "13.25",
+                                "code": "JD"
+                            },
+                            {
+                                "amount": "12.26",
+                                "code": "IT"
+                            },
+                            {
+                                "amount": "31.65",
+                                "code": "RN"
+                            },
+                            {
+                                "amount": "2.42",
+                                "code": "MJ"
+                            }
+                        ],
+                        "refundableTaxes": "130.61"
+                    },
+                    "fareDetailsBySegment": [
+                        {
+                            "segmentId": "46",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORLGEU1",
+                            "brandedFare": "ECOLIGHT",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            }
+                        },
+                        {
+                            "segmentId": "47",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORLGEU1",
+                            "brandedFare": "ECOLIGHT",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            }
+                        },
+                        {
+                            "segmentId": "100",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORLGEU1",
+                            "brandedFare": "ECOLIGHT",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            }
+                        },
+                        {
+                            "segmentId": "101",
+                            "cabin": "ECONOMY",
+                            "fareBasis": "ORLGEU1",
+                            "brandedFare": "ECOLIGHT",
+                            "class": "O",
+                            "includedCheckedBags": {
+                                "quantity": 0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "bookingRequirements": {
+        "emailAddressRequired": true,
+        "mobilePhoneNumberRequired": true
+    }
+}

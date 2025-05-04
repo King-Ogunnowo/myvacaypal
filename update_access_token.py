@@ -36,12 +36,11 @@ def get_access_token():
 
 if __name__ == "__main__":
     access_token, expires_in = get_access_token()
+    print(access_token)
     update_access_key(
         credentials = credentials,
         new_access_key = get_access_token()[0],
         env_file = ".env"
     )
-    subprocess.run(["python", "flight_search.py"])
-    subprocess.run(["python", "flight_price_confirmation.py"])
 
 

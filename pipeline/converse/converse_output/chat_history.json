@@ -1,113 +1,98 @@
 [
     {
         "role": "system",
-        "content": "You are an intelligent AI travel planner assistant. When users approach you with travel requests, do not make any assumptions. Always ask follow-up questions to gather details. Ask one question at a time and wait for the user's response before continuing. As the conversation progresses, remember to keep track of the user's preferences and interests to provide personalized recommendations. Don't start with 'okay, xyz city seems fantastic' after your first response. Only ask question regarding the trip, number of people travelling, duration, budget and interests, and accomodationOnce you have all the information, draw up an itenary of flight, accomodation and activities for the userAvoid drill downs and deep dives, ask very important questionsDo not ask more than 5 questions in allwhen you have all the questions you need, say this: 'Thank you for answering my questions, I will now compile your trip itenary, a minute please...'",
-        "timestamp": "2025-04-26 08:12:11.576671",
-        "conversation_id": "91444ce02c294536b46638dc200e736a"
+        "content": "You are an intelligent AI travel planner assistant. When users approach you with travel requests, do not make any assumptions. Always ask follow-up questions to gather details. Ask one question at a time and wait for the user's response before continuing. As the conversation progresses, remember to keep track of the user's preferences and interests to provide personalized recommendations. Don't start with 'okay, xyz city seems fantastic' after your first response. Only ask question regarding the trip, number of people travelling, duration, budget and interests, and accomodationOnce you have all the information, draw up an itenary of flight, accomodation and activities for the userAvoid drill downs and deep dives, ask very important questionsDo not ask more than 5 questions in allwhen you have all the questions you need, say this: 'Thank you for answering my questions, I will now compile your trip itenary, a minute please...'Most importantly, ensure you get details on departure, arrival, accomodation, number of passengers, budget, activities, etcBefore you conclude the conversation, reiterate all the user's preference as a way of confirming the user's intent",
+        "timestamp": "2025-05-04 12:54:58.680687",
+        "conversation_id": "7b6949ee743a4c368bf55fb94e2d33ec"
     },
     {
         "role": "user",
-        "content": "I like to visit Barcelona sometime in september",
-        "timestamp": "2025-04-26 08:12:11.576676"
+        "content": "Hey I like to travel to Barcelona for holidays between 23rd and 29th of June 2025. I will be flying from amsterdam",
+        "timestamp": "2025-05-04 12:54:58.680822"
     },
     {
         "role": "assistant",
-        "content": "Okay, Barcelona in September \u2013 that sounds lovely! To help me narrow down the perfect trip for you, could you tell me, for how many people will you be travelling?",
-        "timestamp": "2025-04-26 08:12:12.357734"
-    },
-    {
-        "role": "assistant",
-        "content": "",
-        "timestamp": "2025-04-26 08:12:12.401354"
+        "content": "Great! Barcelona sounds fantastic. First, could you tell me how many people will be travelling with you?",
+        "timestamp": "2025-05-04 12:54:59.587402"
     },
     {
         "role": "user",
-        "content": "Just me travelling, I am a lone wolf LOL",
-        "timestamp": "2025-04-26 08:12:41.831235"
+        "content": "just me",
+        "timestamp": "2025-05-04 12:55:03.869752"
     },
     {
         "role": "assistant",
-        "content": "Okay, just one person travelling \u2013 a lone wolf! Got it. \n\nAnd to help me understand what kind of trip you\u2019re envisioning, could you tell me roughly how long you\u2019d like to spend in Barcelona? (e.g., a long weekend, a week, or something else?)",
-        "timestamp": "2025-04-26 08:12:43.139952"
-    },
-    {
-        "role": "assistant",
-        "content": "",
-        "timestamp": "2025-04-26 08:12:43.183614"
+        "content": "Okay, just one person. And to help me narrow down the options, what kind of budget are you working with for this trip \u2013 roughly, per person? (e.g., budget, mid-range, luxury)?",
+        "timestamp": "2025-05-04 12:55:04.859511"
     },
     {
         "role": "user",
-        "content": "I like to spend a long weekend in Barcelona. precisely 05/09/2025 to 08/09/2025",
-        "timestamp": "2025-04-26 08:14:07.421223"
+        "content": "1200 euros",
+        "timestamp": "2025-05-04 12:55:17.277238"
     },
     {
         "role": "assistant",
-        "content": "Perfect, 5th to 8th of September 2025 \u2013 a long weekend. \n\nNow, let\u2019s talk about your budget for this trip. Could you give me a general idea of how much you\u2019d like to spend (e.g., budget, mid-range, or luxury)?",
-        "timestamp": "2025-04-26 08:14:08.841982"
-    },
-    {
-        "role": "assistant",
-        "content": "",
-        "timestamp": "2025-04-26 08:14:08.886632"
+        "content": "Okay, a budget of \u20ac1200. That\u2019s helpful. Now, thinking about your trip, what kind of activities are you most interested in? For example, are you interested in art, architecture, food, nightlife, beaches, or something else?",
+        "timestamp": "2025-05-04 12:55:18.436439"
     },
     {
         "role": "user",
-        "content": "My budget is to spend just about 1000 euros on flight, accomodation and activities",
-        "timestamp": "2025-04-26 08:14:50.442419"
+        "content": "nightlife, buzzling nightlife so maybe bars, etc",
+        "timestamp": "2025-05-04 12:55:32.987403"
     },
     {
         "role": "assistant",
-        "content": "Okay, a budget of around \u20ac1000 for flights, accommodation, and activities \u2013 that\u2019s helpful to know. \n\nTo help me find the best options for you, could you tell me, what are your primary interests when you travel? (e.g., art & culture, food & drink, beaches & outdoor activities, nightlife, history, shopping, etc.)",
-        "timestamp": "2025-04-26 08:14:52.044783"
-    },
-    {
-        "role": "assistant",
-        "content": "",
-        "timestamp": "2025-04-26 08:14:52.090817"
+        "content": "Excellent. So, you're primarily interested in experiencing Barcelona\u2019s nightlife, focusing on bars and similar experiences. Just to clarify, when you say nightlife, are you thinking of specific types of bars \u2013 perhaps cocktail bars, live music venues, or something different?",
+        "timestamp": "2025-05-04 12:55:34.138793"
     },
     {
         "role": "user",
-        "content": "I love art and culture, I like to experience the history of Barcelona and the nightlife as well, so clubs will be nice.",
-        "timestamp": "2025-04-26 08:15:30.476829"
+        "content": "live music venues",
+        "timestamp": "2025-05-04 12:55:41.452466"
     },
     {
         "role": "assistant",
-        "content": "Excellent! Art, culture, history, and nightlife \u2013 Barcelona has plenty to offer in all those areas. \n\nTo help me find the right accommodation for you, what type of accommodation are you looking for? (e.g., a budget-friendly hostel, a small hotel, or perhaps something a little more unique?)",
-        "timestamp": "2025-04-26 08:15:31.895416"
-    },
-    {
-        "role": "assistant",
-        "content": "",
-        "timestamp": "2025-04-26 08:15:31.943190"
+        "content": "Got it \u2013 live music venues are a priority. To help me find the perfect spots for you, could you tell me, what kind of music are you generally most interested in? (e.g., electronic, rock, jazz, indie, etc.)",
+        "timestamp": "2025-05-04 12:55:42.589109"
     },
     {
         "role": "user",
-        "content": "Budget friendy airbnb would be nice",
-        "timestamp": "2025-04-26 08:16:00.615878"
+        "content": "indie",
+        "timestamp": "2025-05-04 12:55:47.919341"
     },
     {
         "role": "assistant",
-        "content": "Okay, a budget-friendly Airbnb \u2013 noted. \n\nFinally, to help me understand your preferences a bit better, when you say nightlife, are there any specific types of clubs or music you enjoy (e.g., electronic, Latin, pop, etc.)?",
-        "timestamp": "2025-04-26 08:16:01.797159"
-    },
-    {
-        "role": "assistant",
-        "content": "",
-        "timestamp": "2025-04-26 08:16:01.848712"
+        "content": "Okay, indie music venues. And to help me understand the duration of your trip, how many nights will you be staying in Barcelona between the 23rd and 29th of June 2025?",
+        "timestamp": "2025-05-04 12:55:48.942967"
     },
     {
         "role": "user",
-        "content": "Clubs and music, preferably pop",
-        "timestamp": "2025-04-26 08:16:19.282750"
+        "content": "its about 7 days so 6 nights",
+        "timestamp": "2025-05-04 12:56:07.094809"
+    },
+    {
+        "role": "assistant",
+        "content": "Perfect, 6 nights. Now, regarding your accommodation, what type of accommodation are you most interested in? (e.g., a budget-friendly hostel, a boutique hotel, an Airbnb, etc.)",
+        "timestamp": "2025-05-04 12:56:08.068513"
+    },
+    {
+        "role": "user",
+        "content": "a hotel is good",
+        "timestamp": "2025-05-04 12:56:13.076516"
+    },
+    {
+        "role": "assistant",
+        "content": "Okay, a hotel it is. And finally, to help me refine the flight search, which airport in Amsterdam are you planning to fly from \u2013 Amsterdam Schiphol (AMS)?",
+        "timestamp": "2025-05-04 12:56:13.947495"
+    },
+    {
+        "role": "user",
+        "content": "yes",
+        "timestamp": "2025-05-04 12:56:20.571239"
     },
     {
         "role": "assistant",
         "content": "Thank you for answering my questions, I will now compile your trip itenary, a minute please...",
-        "timestamp": "2025-04-26 08:16:19.846572"
-    },
-    {
-        "role": "assistant",
-        "content": "",
-        "timestamp": "2025-04-26 08:16:19.895956"
+        "timestamp": "2025-05-04 12:56:21.142417"
     }
 ]
